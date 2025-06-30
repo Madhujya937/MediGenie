@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environments
+venv/
+ENV/
+env/
+.venv/
+
+# Jupyter and notebook
+.ipynb_checkpoints/
+
+# Data and models
+vectorstore/
+models/
+*.pkl
+*.faiss
+*.pdf
+*.env
+# OS files
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/

@@ -1,0 +1,32 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+faiss-cpu = "*"
+openai = "*"
+pandas = "*"
+tiktoken = "*"
+fastapi = "*"
+uvicorn = "*"
+pydantic = "*"
+langchain-openai = "*"
+pdfplumber = "*"
+langchain-huggingface = "*"
+sentence-transformers = "*"
+transformers = "*"
+huggingface-hub = "*"
+numpy = "<2"
+pypdf = "*"
+pytesseract = "*"
+pillow = "*"
+
+[dev-packages]
+ipython = "*"
+black = "*"
+flake8 = "*"
+pytest = "*"
+
+[requires]
+python_version = "3.11"
